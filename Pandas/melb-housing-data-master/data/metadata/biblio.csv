@@ -1,0 +1,2 @@
+title,description,datePublished,citation,keywords,license,funder,geographicDescription,northBoundCoord,eastBoundCoord,southBoundCoord,westBoundCoord,wktString,startDate,endDate
+Melbourne Housing Data,Housing data for the city of Melbourne scraped weekly from property clearance data. ,2018-04-30,NA,"housing, prices, economic",NA,kaggle,"NA","NA","NA","NA","NA","NA",2016-01-28,2018-03-17

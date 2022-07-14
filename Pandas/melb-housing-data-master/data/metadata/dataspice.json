@@ -1,0 +1,173 @@
+{
+  "@context": "http://schema.org",
+  "type": "Dataset",
+  "name": "Melbourne Housing Data",
+  "creator": [
+    {
+      "type": "Person",
+      "id": null,
+      "worksFor": "kaggle",
+      "givenName": "Tony",
+      "familyName": "Pino",
+      "email": null
+    },
+    {
+      "type": "Person",
+      "id": "0000-0003-1460-8722",
+      "worksFor": "Monash University",
+      "givenName": "Nicholas",
+      "familyName": "Tierney",
+      "email": "nicholas.tierney@monash.edu"
+    }
+  ],
+  "description": "Housing data for the city of Melbourne scraped weekly from property clearance data.",
+  "datePublished": "2018-04-30",
+  "keywords": ["housing", "prices", "economic"],
+  "funder": "kaggle",
+  "temporalCoverage": "2016-01-28/2018-03-17",
+  "license": null,
+  "spatialCoverage": {
+    "type": "Place",
+    "name": null,
+    "geo": {
+      "type": "GeoShape",
+      "box": "NA NA NA NA"
+    }
+  },
+  "variableMeasured": [
+    {
+      "type": "PropertyValue",
+      "unitText": "text",
+      "name": "suburb",
+      "description": "Suburb"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "integer",
+      "name": "rooms",
+      "description": "number of Rooms"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "text",
+      "name": "type",
+      "description": "Type of house"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "integer",
+      "name": "price",
+      "description": "Price in dollars"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "text",
+      "name": "method",
+      "description": "How the property was sold. S - property sold; SP - property sold prior; PI - property passed in; PN - sold prior not disclosed; SN - sold not disclosed; NB - no bid; VB - vendor bid; W - withdrawn prior to auction; SA - sold after auction; SS - sold after auction price not disclosed. N/A - price or highest bid not available."
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "text",
+      "name": "seller_g",
+      "description": "Real Estate Agent"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "Date",
+      "name": "date",
+      "description": "Date Sold"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "number",
+      "name": "distance",
+      "description": "Distance from CBD"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "integer",
+      "name": "postcode",
+      "description": "Postcode of the property"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "integer",
+      "name": "bedroom2",
+      "description": "Number of Bedrooms"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "integer",
+      "name": "bathroom",
+      "description": "Number of Bathrooms"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "integer",
+      "name": "car",
+      "description": "Number of carspaces"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "number",
+      "name": "landsize",
+      "description": "Landsize"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "number",
+      "name": "building_area",
+      "description": "Building Size"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "Date",
+      "name": "year_built",
+      "description": "Year the house was built"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "text",
+      "name": "council_area",
+      "description": "Governing council for the area"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "number",
+      "name": "latitude",
+      "description": "Latitude"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "number",
+      "name": "longitude",
+      "description": "Longitude"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "text",
+      "name": "region_name",
+      "description": "General Region (West, North West, North, North east ...etc)"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "number",
+      "name": "property_count",
+      "description": "Number of properties that exist in the suburb."
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "text",
+      "name": "yr_qtr",
+      "description": "Quarter of the year (Jan - March = Q1, etc)"
+    }
+  ],
+  "distribution": [
+    {
+      "type": "DataDownload",
+      "name": "housing",
+      "contentUrl": true,
+      "fileFormat": "csv"
+    }
+  ]
+}
